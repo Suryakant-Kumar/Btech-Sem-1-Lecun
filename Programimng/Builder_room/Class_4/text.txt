@@ -1,0 +1,9 @@
+Subject = Programming 
+Marking Scheme (Weightage)
+    attendance = 10%
+    mid term = 20%
+        exam = 15%,solo mini project = 5%
+    quizzes = 30%
+        8 - 10 quizzes | best of 4
+    end term = 40%
+        exam = 30% , group capstone project = 5%, viva = 5%

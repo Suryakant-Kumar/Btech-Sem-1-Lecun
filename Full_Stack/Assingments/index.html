@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bash Commands I Have Learnt</h1>
+    <h3>1.touch</h3>
+    <h4>File creation</h4>
+    <p>The <strong>touch</strong> command creates a new, empty file. If the file already exists, it simply updates the file's last modified timestamp instead of changing its content.<br>
+        Its one of the simplest way to create a file directly from the terminal.
+    </p>
+    <br>
+    <p><u>Syntax:</u> touch file_name</p>
+    <p><u>Example:</u> touch notes.txt</p>
+    <p><u>Output:</u> {no output - the file notes.txt is created silently in the current folder}</p>
+    <hr>
+    <h3>2. mkdir</h3>
+    <h4>Folder creation</h4>
+    <p>The <strong>mkdir</strong> command creates a new, empty folder (directory) at the location you specify.</p>
+    <p><u>Syntax:</u> mkdir foldername</p>
+    <p><u>Example:</u> mkdir project</p>
+    <p><u>Output:</u> {no output - the folder project is created in the current directory}</p>
+    <hr>
+    <h3>3. cd</h3>
+    <h4>Change Directory</h4>
+    <p>The <strong>cd</strong> command changes the current working directory. moving you into a different folder in the terminal.</p>
+    <p><u>Syntax:</u> cd foldername</p>
+    <p><u>Example:</u> cd project</p>
+    <p><u>Output:</u> {prompt changes to show you are now inside ~/project}</p>
+    <hr>
+    <h3>4. grep (Exploration)</h3>
+    <h4>What is grep?</h4>
+    <p><u>What I tried:</u> grep "Syntax" index.html</p>
+    <p><u>Output I got:</u>
+        <br>
+        &lt;p&gt;&lt;u&gt;Syntax:&lt;/u&gt; &lt;code&gt;touch filename&lt;/code&gt;&lt;/p&gt;
+        <br>
+        &lt;p&gt;&lt;u&gt;Syntax:&lt;/u&gt; &lt;code&gt;mkdir foldername&lt;/code&gt;&lt;/p&gt;
+        <br>
+        &lt;p&gt;&lt;u&gt;Syntax:&lt;/u&gt; &lt;code&gt;cd foldername&lt;/code&gt;&lt;/p&gt;
+    </p>
+    <p>
+        <u>My Understanding:</u> grep searches through the contents of a file (or files) for lines that match a given word or pattern, and it prints out only the matching lines rather than the whole file. This makes it useful for quickly finding where a particular word or piece of text appears inside a large files without having to open and read manually.
+    </p>
+</body>
+</html>

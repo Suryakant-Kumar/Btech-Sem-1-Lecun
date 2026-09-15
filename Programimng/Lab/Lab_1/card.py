@@ -1,0 +1,6 @@
+print("----------------------------------")
+print("|       Zenith School of Ai      |")
+print("| Name: Surya                    |")
+print("| City: Dhanbad                  |")
+print("| Occupation: Student            |")
+print("----------------------------------")

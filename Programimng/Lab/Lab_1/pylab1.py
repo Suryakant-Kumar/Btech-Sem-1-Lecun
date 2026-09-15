@@ -1,0 +1,12 @@
+print("Hello, World!")
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+print("Hello", name)
+print("Hi", end=" ")
+print(name)
+print(f"Hi\n{name}")
+print(f"Hello\t{name}")
+numstr = "1 2 3 4 5"
+nums = numstr.split()
+print(nums)
+print(list(map(int, nums)))
