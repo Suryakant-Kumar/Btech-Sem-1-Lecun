@@ -1,0 +1,6 @@
+print(bin(10))
+print(oct(42))
+print(hex(42))
+print(int('101010',2))
+print(int('52',8))
+print(int('2a',16))
