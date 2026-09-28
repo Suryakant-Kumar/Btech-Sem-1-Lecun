@@ -7,20 +7,48 @@
 </head>
 <body>
     <h1>Forms</h1>
-    <form action="">
-        <label>Email</label>
-        <br>
-        <input name="email" type="email" placeholder="you@example.com" required>
+    <form action="/register" method="post">
+        <label for="city">Batch: </label>
+        <select name="" id="city">
+            <option value="">select</option>
+            <option value="">Lecun</option>
+            <option value="">Bengio</option>
+            <option value="">Hilton</option>
+        </select>
         <br><br>
-        <label>Password</label>
+        <label for="email">Email</label>
         <br>
-        <input name="password" type="password" name="" id="" placeholder="Enter your password">
+        <input name="email" type="email" placeholder="you@example.com" required id="email" maxlength="100">
         <br><br>
-        <label for="">Dummy</label>
+        <label for="pass">Password</label>
         <br>
-        <input type="text" placeholder="Dummy Field">
+        <input name="password" type="password" id="pass" placeholder="Enter your password">
         <br><br>
-        <input type="submit" name="" id="">
+        <label for="dummy">Dummy</label>
+        <br>
+        <input type="text" placeholder="Dummy Field" id="dummy" value="Default" minlength="2" maxlength="50">
+        <br><br>
+        <label for="dob">DOB: </label>
+        <br>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="color">Fav Color: </label>
+        <br>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="others" value="Others">
+        <label for="others">Others</label>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
         
     </form>
 </body>

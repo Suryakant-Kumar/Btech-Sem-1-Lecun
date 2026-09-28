@@ -1,0 +1,40 @@
+h1{
+    color:blue;
+    background-color: yellow;
+    width: 350px;
+}
+
+p{
+    color:white;
+    background-color: black;
+    width: 350px;
+}
+
+#mid{
+    background-color: red;
+}
+.text{
+    background-color: darksalmon;
+
+}
+.rain1{
+    background-color: purple;
+}
+.rain2{
+    background-color: indigo;
+}
+.rain3{
+    background-color: blue;
+}
+.rain4{
+    background-color: green;
+}
+.rain5{
+    background-color: yellow;
+}
+.rain6{
+    background-color: orange;
+}
+.rain7{
+    background-color: red;
+}

@@ -1,0 +1,26 @@
+*{
+  font-family: "Playwrite BE WAL Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    /* text-decoration: line-through; */
+    /* font-family: "Brush Script MT",cursive; */
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+#medium{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
