@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* div{
+    margin: 40px 80px 120px;
+    border: 5px solid maroon;
+    padding: 40px 80px;
+    background-color: rgb(209, 110, 110);
+    width: 200px;
+} */
+.item-1{
+    margin: 40px auto;
+    border: 5px solid maroon;
+    padding: 40px 80px;
+    background-color: rgb(209, 110, 110);
+    width: 200px;
+    box-sizing: border-box;
+}
+.item-2{
+    margin: 40px auto;
+    border: 5px solid maroon;
+    padding: 40px 80px;
+    background-color: rgb(209, 110, 110);
+    width: 200px;
+}

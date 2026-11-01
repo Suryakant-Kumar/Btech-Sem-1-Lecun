@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item-1{
+    background-color: dodgerblue;
+    height: 300px;
+    width: 500px;
+}
+.item-2{
+    background-color: orange;
+    height: 300px;
+    width: 60%;
+}
+.item-3{
+    background-color: pink;
+    height: 300px;
+    width: 60vw;
+}
